@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">BeerMap</string>
+    <string name="hello_blank_fragment">Hello temp world!</string>
+</resources>

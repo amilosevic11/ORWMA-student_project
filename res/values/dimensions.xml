@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="CardHeight">200dp</dimen>
+    <dimen name="CardCornerRadius">5dp</dimen>
+    <dimen name="CardLayoutMargin">5dp</dimen>
+    <dimen name="RelativeLayoutPadding">5dp</dimen>
+    <dimen name="ImageViewDimensions">80dp</dimen>
+    <dimen name="CardTitleTextSize">25sp</dimen>
+    <dimen name="CardTitlePadding">5dp</dimen>
+    <dimen name="CardDescriptionPadding">5dp</dimen>
+    <dimen name="CardDescriptionTextSize">20sp</dimen>
+    <dimen name="tabOneDescriptionTextSize">20sp</dimen>
+    <dimen name="FragmentOneTextViewPadding">5dp</dimen>
+</resources>

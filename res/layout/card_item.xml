@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cv_Card"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/CardHeight"
+    card_view:cardCornerRadius="@dimen/CardCornerRadius"
+    android:layout_margin="@dimen/CardLayoutMargin">
+    <RelativeLayout
+        android:id="@+id/relativeLayout_Card"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="@dimen/RelativeLayoutPadding"
+        android:background="@color/darkGrey_CardBackground">
+
+        <ImageView
+            android:id="@+id/iv_cardImage"
+            android:src="@drawable/pivo"
+            android:layout_width="@dimen/ImageViewDimensions"
+            android:layout_height="@dimen/ImageViewDimensions"/>
+
+        <TextView
+            android:id="@+id/tv_CardTitle"
+            android:layout_toRightOf="@id/iv_cardImage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white_Font"
+            android:text="Belgian White Beer"
+            android:textSize="@dimen/CardTitleTextSize"
+            android:textStyle="bold"
+            android:padding="@dimen/CardTitlePadding"/>
+
+        <TextView
+            android:id="@+id/tv_CardHistory"
+            android:padding="@dimen/CardDescriptionPadding"
+            android:layout_below="@id/iv_cardImage"
+            android:text="Belgian white beer uistinu je jako dobro pivo i puno ljudi pije bas tu vrstu"
+            android:textStyle="italic"
+            android:textColor="@color/white_Font"
+            android:textSize="@dimen/CardDescriptionTextSize"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>
